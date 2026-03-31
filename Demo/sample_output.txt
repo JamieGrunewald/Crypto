@@ -1,0 +1,4 @@
+[demo output placeholder]
+Run:
+  python3 cyphercon_demo.py
+and paste a known-good output here as your backup.
