@@ -9,8 +9,8 @@ Jamie Grunewald  |  github.com/JamieGrunewald/Crypto
 A long WarGames quote, encrypted with CPE1704TKS.
 We recover the key using IOC column sweep + chi-square frequency attack.
 
-Run:  python3 cyphercon_demo_v4.py
-      python3 cyphercon_demo_v4.py --auto
+Run:  python3 cyphercon_demo.py
+      python3 cyphercon_demo.py --auto
 
 Repo alignment
 --------------
