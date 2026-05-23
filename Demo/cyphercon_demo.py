@@ -139,7 +139,6 @@ def word_hits(text):
             hits += 1
     return hits
 
-
 def _top_alt_keys(ct_clean, recovered_alpha, best_k, n_alts=5):
     """
     Generate top candidate key strings by finding the best N chi-square
@@ -191,7 +190,6 @@ def slow_print(text, delay=0.018):
 
 TERMINAL_WIDTH = 62
 
-
 def header(title, width=TERMINAL_WIDTH):
     print()
     print('─' * width)
@@ -222,7 +220,6 @@ def pause(auto_mode=False, seconds=0.8, prompt="\n  [ press ENTER ] "):
         time.sleep(seconds)
     else:
         input(prompt)
-
 
 # ── MAIN DEMO ────────────────────────────────────────────────────────────────
 
@@ -390,7 +387,6 @@ def main(auto_mode=False):
     print(f"  {'─' * 49}")
     print()
 
-
 def parse_args():
     parser = argparse.ArgumentParser(
         description="CypherCon 2026 demo: break a Vigenere-encrypted WarGames quote."
@@ -401,7 +397,6 @@ def parse_args():
         help='Run without Enter prompts using timed pauses.'
     )
     return parser.parse_args()
-
 
 if __name__ == '__main__':
     args = parse_args()
